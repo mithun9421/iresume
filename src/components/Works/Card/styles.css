@@ -1,0 +1,6 @@
+.works-card {
+    background-color: rgba(255, 255, 255, 0.06);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 25px 23px rgba(0, 0, 0, 0.05);
+}
