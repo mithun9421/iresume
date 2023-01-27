@@ -13,7 +13,6 @@ export default function Contact() {
     })
 
     const handleInputChange = (val, field) => {
-        console.log('val, field', val, field)
         setContactData({
             ...contactData,
             [field]: val

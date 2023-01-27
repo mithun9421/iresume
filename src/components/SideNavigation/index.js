@@ -7,7 +7,6 @@ import { MoonIcon, SunIcon, ViewIcon, PhoneIcon, SettingsIcon, CopyIcon, Downloa
 export default function SideNavigation() {
     const navigate = useNavigate();
     const { colorMode, toggleColorMode } = useColorMode()
-    const bg = useColorModeValue('gray.100', 'blue.900')
 
     const downloadResume = () => {
         fetch('resume.pdf').then(response => {

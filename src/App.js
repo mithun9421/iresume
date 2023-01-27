@@ -31,7 +31,7 @@ function App() {
 
   return (
     <Flex direction={'column'} h='100%'>
-      <Router>
+      <Router >
         <Routes>
           <Route exact path="/" element={<RouteWrapper><Home /></RouteWrapper>} />
           <Route path="/skills" element={<RouteWrapper><Works /></RouteWrapper>} />

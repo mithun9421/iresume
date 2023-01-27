@@ -16,7 +16,7 @@ const Model = (props) => {
 export default function Home() {
     const navigate = useNavigate();
     return (
-        <Flex w={'100%'} h={'98%'} alignItems='center' justifyContent='center' >
+        <Flex w={'100%'} h={'98%'} alignItems='center' justifyContent='center' flexDirection={{ base: 'column', sm: 'column', md: 'column', lg: 'row' }}>
             <Box position={'relative'}>
                 <Flex p={'30px'} h={'300px'} direction='column' justifyContent='center' alignItems='center' position={'relative'} className='glassmorph-card' zIndex={1}>
                     <Heading fontWeight={'700'} fontSize={'4xl'}>
@@ -36,8 +36,8 @@ export default function Home() {
                 <Box bg={'rgb(49, 145, 231)'} boxShadow={'inset -25px -15px 40px rgba(0,0,0,.3)'} backgroundImage={'linear-gradient(-45deg, rgba(255,255,220,.3) 0%, transparent 100%)'} borderRadius={'50%'} w={'150px'} h={'150px'} position={'absolute'} top={'-16px'} left={'-35px'} zIndex={-21}>
                 </Box>
                 <Tooltip label='Contact Me'>
-                    <Box bg={'rgb(15, 98, 254)'} boxShadow={'inset -25px -15px 40px rgba(0,0,0,.3)'} backgroundImage={'linear-gradient(-45deg, rgba(15,98,220,.3) 0%, transparent 100%)'} borderRadius={'50%'} w={'100px'} h={'100px'} position={'absolute'} bottom={'-50px'} right={'55px'} zIndex={21} display='flex' justifyContent='center' alignItems='center' cursor={'pointer'}>
-                        <EmailIcon w={8} h={8} color='white' onClick={() => { navigate('/contact') }}></EmailIcon>
+                    <Box onClick={() => { navigate('/contact') }} bg={'rgb(15, 98, 254)'} boxShadow={'inset -25px -15px 40px rgba(0,0,0,.3)'} backgroundImage={'linear-gradient(-45deg, rgba(15,98,220,.3) 0%, transparent 100%)'} borderRadius={'50%'} w={'100px'} h={'100px'} position={'absolute'} bottom={'-50px'} right={'55px'} zIndex={21} display='flex' justifyContent='center' alignItems='center' cursor={'pointer'}>
+                        <EmailIcon w={8} h={8} color='white' ></EmailIcon>
                     </Box>
                 </Tooltip>
             </Box>
