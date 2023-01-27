@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/iresume/static/css/main.8abaa528.css",
-    "main.js": "/iresume/static/js/main.1a48c849.js",
-    "static/js/787.dc9ee2bf.chunk.js": "/iresume/static/js/787.dc9ee2bf.chunk.js",
-    "static/media/mithun_q.jpg": "/iresume/static/media/mithun_q.ebd274a138c4d9a7a41e.jpg",
-    "static/media/bny.png": "/iresume/static/media/bny.87cc79f09cde83f2a1c6.png",
-    "static/media/paypal-logo.png": "/iresume/static/media/paypal-logo.25b341e7e8db7bd5e1e5.png",
-    "index.html": "/iresume/index.html",
-    "main.8abaa528.css.map": "/iresume/static/css/main.8abaa528.css.map",
-    "main.1a48c849.js.map": "/iresume/static/js/main.1a48c849.js.map",
-    "787.dc9ee2bf.chunk.js.map": "/iresume/static/js/787.dc9ee2bf.chunk.js.map"
+    "main.css": "/static/css/main.8abaa528.css",
+    "main.js": "/static/js/main.bb570f3e.js",
+    "static/js/787.dc9ee2bf.chunk.js": "/static/js/787.dc9ee2bf.chunk.js",
+    "static/media/mithun_q.jpg": "/static/media/mithun_q.ebd274a138c4d9a7a41e.jpg",
+    "static/media/bny.png": "/static/media/bny.87cc79f09cde83f2a1c6.png",
+    "static/media/paypal-logo.png": "/static/media/paypal-logo.25b341e7e8db7bd5e1e5.png",
+    "index.html": "/index.html",
+    "main.8abaa528.css.map": "/static/css/main.8abaa528.css.map",
+    "main.bb570f3e.js.map": "/static/js/main.bb570f3e.js.map",
+    "787.dc9ee2bf.chunk.js.map": "/static/js/787.dc9ee2bf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8abaa528.css",
-    "static/js/main.1a48c849.js"
+    "static/js/main.bb570f3e.js"
   ]
 }
