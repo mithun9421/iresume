@@ -1,7 +1,6 @@
 import React from 'react';
 import { useNavigate, NavLink } from 'react-router-dom';
-import { Flex, Box, useColorMode, useColorModeValue, Stack, Link, Tooltip } from '@chakra-ui/react'
-import { customColorScheme } from '../../tools/chakra-theme'
+import { Flex, useColorMode, useColorModeValue, Stack, Link, Tooltip } from '@chakra-ui/react'
 import { MoonIcon, SunIcon, ViewIcon, PhoneIcon, SettingsIcon, CopyIcon, DownloadIcon } from '@chakra-ui/icons'
 
 export default function SideNavigation() {
