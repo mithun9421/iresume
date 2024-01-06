@@ -61,52 +61,46 @@ export default function Contact() {
                 .insert({ ...contactData?.data })
                 .single()
 
-            setTimeout(() => {
-                setContactData({
-                    ...contactData,
-                    loading: false,
-                    status: {
-                        type: 'success',
-                        message: 'Thank you for your valuable time, I will get back to you!'
-                    }
-                })
-            }, 3000)
-
+            setContactData({
+                ...contactData,
+                loading: false,
+                status: {
+                    type: 'success',
+                    message: 'Thank you for your valuable time, I will get back to you!'
+                }
+            })
 
             if (error) {
                 console.log(error.message)
-                setTimeout(() => {
-                    setContactData({
-                        ...contactData,
-                        loading: false,
-                        status: {
-                            type: 'error',
-                            message: error.message
-                        }
-                    })
-                }, 5000)
-
-            }
-        } else {
-            setTimeout(() => {
                 setContactData({
                     ...contactData,
                     loading: false,
                     status: {
                         type: 'error',
-                        message: 'Please enter all the fields'
+                        message: error.message
                     }
                 })
-            }, 3000)
-        }
-        setContactData({
-            ...contactData,
-            loading: false,
-            status: {
-                type: '',
-                message: ''
             }
-        })
+        } else {
+            setContactData({
+                ...contactData,
+                loading: false,
+                status: {
+                    type: 'error',
+                    message: 'Please enter all the fields'
+                }
+            })
+        }
+        setTimeout(() => {
+            setContactData({
+                ...contactData,
+                loading: false,
+                status: {
+                    type: '',
+                    message: ''
+                }
+            })
+        }, 3000)
     }
 
     return (
@@ -147,9 +141,7 @@ export default function Contact() {
                         </Alert>
                     </Box>
                 }
-
             </Box>
-
         </Box>
     )
 }

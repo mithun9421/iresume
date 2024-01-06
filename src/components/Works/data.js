@@ -17,3 +17,29 @@ export const workExperience = [
         ]
     }
 ]
+
+export const rolesResponsilbities = {
+    paypal: {
+        label: 'PayPal',
+        roles: [
+            'Lead Developer', 'Frontend Developer', 'Tech for Good - Enthusiast'
+        ],
+        responsibilites: [
+            'asd'
+        ],
+        skillsets: [
+            {
+                label: 'React',
+                level: 50
+            },
+            {
+                label: 'Node JS',
+                level: 60
+            },
+            {
+                label: 'HTML, CSS, JS',
+                level: 60
+            }
+        ]
+    }
+}

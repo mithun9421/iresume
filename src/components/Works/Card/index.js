@@ -11,7 +11,7 @@ const ImageMapping = {
 }
 
 export default function Card({
-    heading, subheading, img, description
+    heading, subheading, img, description, handleArrowClick
 }) {
     return (
         <Flex mt={20}>
@@ -29,7 +29,7 @@ export default function Card({
                     })
                 }
                 <Box position="absolute" right={'5'} bottom={'5'}>
-                    <ArrowRightIcon />
+                    <ArrowRightIcon onClick={() => { handleArrowClick(img) }} />
                 </Box>
             </Flex>
         </Flex>

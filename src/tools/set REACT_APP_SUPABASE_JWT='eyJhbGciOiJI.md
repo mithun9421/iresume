@@ -1,0 +1,1 @@
+set REACT_APP_SUPABASE_JWT='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9' && set REACT_APP_SUPABASE_PROJECT_NAME='https://yohhygynlorzantmtigh.supabase.co' && npm start

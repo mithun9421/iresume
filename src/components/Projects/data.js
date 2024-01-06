@@ -23,6 +23,15 @@ export const projects = [
         ],
     },
     {
+        id: 8,
+        label: 'Data Configuration - Horizontal',
+        sublabel: 'Scanner for PII Data',
+        skillSet: ['ReactJS', 'Webpack', 'NodeJS'],
+        description: [
+            'A completely reusable configuration component to help configure database configuration that establishes connection for additional user processing'
+        ],
+    },
+    {
         id: 3,
         label: 'Data Life Cycle Platform',
         sublabel: 'Scanner for PII Data',
